@@ -28,7 +28,7 @@ onPasswordChange =(event)=> {
 
 onRegister = () => {
 
-	fetch('http://localhost:3001/register',{
+	fetch('https://damp-basin-46725.herokuapp.com/register',{
 
 		method: 'post',
 

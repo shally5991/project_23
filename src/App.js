@@ -121,7 +121,7 @@ onButtonsubmit = () =>
 {
    this.setState({imageLink: this.state.input});
 
-   fetch('http://localhost:3001/imageurl' , {
+   fetch('https://damp-basin-46725.herokuapp.com/imageurl' , {
 
         method: 'post',
 
@@ -139,7 +139,7 @@ onButtonsubmit = () =>
 
     if (response) {
 
-      fetch('http://localhost:3001/images' , {
+      fetch('https://damp-basin-46725.herokuapp.com/images' , {
 
         method: 'put',
 
